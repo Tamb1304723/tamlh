@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     -webkit-print-color-adjust: exact;
+
 }
 
 .col {
@@ -14,13 +15,13 @@
 }
 
 .container {
-    border: 1px solid #rgb(44, 160, 203);
+    border: 2px solid rgb(4, 4, 4);
     border-radius: 5px;
     padding: 10px;
     font-family: sans-serif;
     margin: 0 auto;
     width: 650px;
-    ;
+
 }
 
 .container .header {
