@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+}
+
+.col {
+    position: relative;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.container {
+    border: 1px solid #rgb(44, 160, 203);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 650px;
+    ;
+}
+
+.container .header {
+    /*background: #01a08c;*/
+    background: rgba(47, 184, 208, 0.6);
+    border-bottom: 1px solid ##rgb(44, 160, 203);
+    min-height: 230px;
+    width: 100%;
+}
+
+.container .header .info {
+    width: 50%;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+}
+
+.container .header div.avatar {
+    /* border-radius: 50%; */
+    height: 210px;
+    position: relative;
+    margin: 10px 65px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.container .header div.avatar img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .header div.contact {
+    margin-top: 20px;
+}
+
+.container .header div.contact div.content {
+    border-left: 1px solid ##rgb(44, 160, 203);
+    height: 180px;
+    padding: 25px;
+}
+
+.container .content {
+    padding-left: 150px;
+}
+
+.container .content .items {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    border-left: 2px solid #01a08c;
+    position: relative;
+}
+
+.container .content .items .wrapper-icon {
+    position: absolute;
+    width: 45px;
+    top: 37px;
+    left: -45px;
+    border-top: 2px solid #01a08c;
+}
+
+.container .content .items .wrapper-icon .icon {
+    border: 2px solid #01a08c;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: -53%;
+    transform: translateY(-51%);
+}
+
+.container .content .items .wrapper-icon .icon img {
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.container .content .items .wrapper-icon .point {
+    border: 3px solid #01a08c;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: -3px;
+    top: -5px;
+}
+
+.container .content .items .item-header {
+    border-bottom: 2px solid #01a08c;
+    color: #01a08c;
+}
+
+.container .content .items .item-content {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.container .content .items .item-content>li {
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+}
+
+.container .content .items .item-content .title {
+    color: #01a08c;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.container .content .items .item-content .title .left {
+    width: 75%;
+}
+
+.container .content .items .item-content .title .right {
+    text-align: right;
+    width: 25%;
+}
